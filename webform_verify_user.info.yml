@@ -1,0 +1,7 @@
+name: webform verify user
+type: module
+description: Verifies the user form submission by sending OTP.
+package: Custom
+core_version_requirement: ^9 || ^10
+dependencies:
+  - webform

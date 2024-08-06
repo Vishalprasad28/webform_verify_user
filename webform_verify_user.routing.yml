@@ -1,0 +1,7 @@
+webform_verify_user.otp_validator:
+  path: '/validate/otp'
+  defaults:
+    _title: 'Otp Validator'
+    _controller: '\Drupal\webform_verify_user\Controller\ValidateOtp::build'
+  requirements:
+    _permission: 'access content'

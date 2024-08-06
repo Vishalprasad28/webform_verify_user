@@ -1,0 +1,24 @@
+.otp-message, .otp-success {
+  color: rgb(3, 198, 3) !important;
+  font-weight: bolder;
+  font-size: 15px;
+}
+#send-otp-btn {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+.otp-error {
+  color: red !important;
+  font-weight: bolder;
+}
+.verify-btn {
+  border-radius: 20px !important;
+}
+.fa-circle-check {
+  color: rgb(3, 198, 3);
+}
+.fa-circle-xmark {
+  color: red;
+}
+
